@@ -1,0 +1,132 @@
+.app-shell {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.discord-card {
+  background: #ffffffee;
+  border: 1px solid #d9e1f5;
+  border-radius: 20px;
+  box-shadow: 0 22px 48px #3556a31f;
+  padding: 1.4rem;
+  text-align: left;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #1842a0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0.4rem 0 0.6rem;
+  color: #071638;
+}
+
+.subtitle {
+  margin: 0;
+  color: #3f4f72;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.85rem;
+  margin-top: 1.25rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-weight: 600;
+  color: #2a3554;
+}
+
+input {
+  border: 1px solid #bfcced;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.56rem 0.65rem;
+  font-size: 0.95rem;
+}
+
+.challenge-row {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.challenge-row p {
+  margin: 0;
+  color: #1d2950;
+}
+
+button {
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #1149c9, #2f7efe);
+  color: #fff;
+  font-weight: 700;
+  padding: 0.55rem 0.85rem;
+  cursor: pointer;
+}
+
+.proof-box {
+  margin-top: 1rem;
+  border: 1px solid #e5ebfb;
+  border-radius: 12px;
+  padding: 0.8rem;
+  background: #f9fbff;
+}
+
+.proof-box h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #1b315f;
+}
+
+pre {
+  margin: 0.7rem 0 0;
+  padding: 0.65rem;
+  border-radius: 10px;
+  background: #eff4ff;
+  color: #0f2552;
+  overflow-x: auto;
+  font-size: 0.8rem;
+}
+
+.result {
+  margin-top: 1rem;
+  border-radius: 14px;
+  padding: 0.85rem;
+}
+
+.result h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.result p {
+  margin: 0.4rem 0 0;
+}
+
+.approved {
+  background: #e9f8ee;
+  border: 1px solid #9dd5af;
+  color: #114724;
+}
+
+.rejected {
+  background: #fff1f1;
+  border: 1px solid #f5b8b8;
+  color: #7e1f1f;
+}
